@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84CE32C91AB173BA00ECAD33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CE32C81AB173BA00ECAD33 /* AppDelegate.swift */; };
+		84CE32CB1AB173BA00ECAD33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CE32CA1AB173BA00ECAD33 /* ViewController.swift */; };
+		84CE32CE1AB173BA00ECAD33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CE32CC1AB173BA00ECAD33 /* Main.storyboard */; };
+		84CE32D01AB173BA00ECAD33 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84CE32CF1AB173BA00ECAD33 /* Images.xcassets */; };
+		84CE32D31AB173BA00ECAD33 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84CE32D11AB173BA00ECAD33 /* LaunchScreen.xib */; };
+		84CE32DF1AB173BA00ECAD33 /* ACE_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CE32DE1AB173BA00ECAD33 /* ACE_AppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84CE32D91AB173BA00ECAD33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84CE32BB1AB173BA00ECAD33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84CE32C21AB173BA00ECAD33;
+			remoteInfo = "ACE App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84CE32C31AB173BA00ECAD33 /* ACE App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ACE App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CE32C71AB173BA00ECAD33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84CE32C81AB173BA00ECAD33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84CE32CA1AB173BA00ECAD33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84CE32CD1AB173BA00ECAD33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84CE32CF1AB173BA00ECAD33 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		84CE32D21AB173BA00ECAD33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		84CE32D81AB173BA00ECAD33 /* ACE AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ACE AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CE32DD1AB173BA00ECAD33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84CE32DE1AB173BA00ECAD33 /* ACE_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACE_AppTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84CE32C01AB173BA00ECAD33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CE32D51AB173BA00ECAD33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84CE32BA1AB173BA00ECAD33 = {
+			isa = PBXGroup;
+			children = (
+				84CE32C51AB173BA00ECAD33 /* ACE App */,
+				84CE32DB1AB173BA00ECAD33 /* ACE AppTests */,
+				84CE32C41AB173BA00ECAD33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84CE32C41AB173BA00ECAD33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84CE32C31AB173BA00ECAD33 /* ACE App.app */,
+				84CE32D81AB173BA00ECAD33 /* ACE AppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84CE32C51AB173BA00ECAD33 /* ACE App */ = {
+			isa = PBXGroup;
+			children = (
+				84CE32C81AB173BA00ECAD33 /* AppDelegate.swift */,
+				84CE32CA1AB173BA00ECAD33 /* ViewController.swift */,
+				84CE32CC1AB173BA00ECAD33 /* Main.storyboard */,
+				84CE32CF1AB173BA00ECAD33 /* Images.xcassets */,
+				84CE32D11AB173BA00ECAD33 /* LaunchScreen.xib */,
+				84CE32C61AB173BA00ECAD33 /* Supporting Files */,
+			);
+			path = "ACE App";
+			sourceTree = "<group>";
+		};
+		84CE32C61AB173BA00ECAD33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84CE32C71AB173BA00ECAD33 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84CE32DB1AB173BA00ECAD33 /* ACE AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				84CE32DE1AB173BA00ECAD33 /* ACE_AppTests.swift */,
+				84CE32DC1AB173BA00ECAD33 /* Supporting Files */,
+			);
+			path = "ACE AppTests";
+			sourceTree = "<group>";
+		};
+		84CE32DC1AB173BA00ECAD33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84CE32DD1AB173BA00ECAD33 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84CE32C21AB173BA00ECAD33 /* ACE App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84CE32E21AB173BA00ECAD33 /* Build configuration list for PBXNativeTarget "ACE App" */;
+			buildPhases = (
+				84CE32BF1AB173BA00ECAD33 /* Sources */,
+				84CE32C01AB173BA00ECAD33 /* Frameworks */,
+				84CE32C11AB173BA00ECAD33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ACE App";
+			productName = "ACE App";
+			productReference = 84CE32C31AB173BA00ECAD33 /* ACE App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84CE32D71AB173BA00ECAD33 /* ACE AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84CE32E51AB173BA00ECAD33 /* Build configuration list for PBXNativeTarget "ACE AppTests" */;
+			buildPhases = (
+				84CE32D41AB173BA00ECAD33 /* Sources */,
+				84CE32D51AB173BA00ECAD33 /* Frameworks */,
+				84CE32D61AB173BA00ECAD33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84CE32DA1AB173BA00ECAD33 /* PBXTargetDependency */,
+			);
+			name = "ACE AppTests";
+			productName = "ACE AppTests";
+			productReference = 84CE32D81AB173BA00ECAD33 /* ACE AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84CE32BB1AB173BA00ECAD33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Ash n Pari";
+				TargetAttributes = {
+					84CE32C21AB173BA00ECAD33 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					84CE32D71AB173BA00ECAD33 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 84CE32C21AB173BA00ECAD33;
+					};
+				};
+			};
+			buildConfigurationList = 84CE32BE1AB173BA00ECAD33 /* Build configuration list for PBXProject "ACE App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84CE32BA1AB173BA00ECAD33;
+			productRefGroup = 84CE32C41AB173BA00ECAD33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84CE32C21AB173BA00ECAD33 /* ACE App */,
+				84CE32D71AB173BA00ECAD33 /* ACE AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84CE32C11AB173BA00ECAD33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CE32CE1AB173BA00ECAD33 /* Main.storyboard in Resources */,
+				84CE32D31AB173BA00ECAD33 /* LaunchScreen.xib in Resources */,
+				84CE32D01AB173BA00ECAD33 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CE32D61AB173BA00ECAD33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84CE32BF1AB173BA00ECAD33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CE32CB1AB173BA00ECAD33 /* ViewController.swift in Sources */,
+				84CE32C91AB173BA00ECAD33 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CE32D41AB173BA00ECAD33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CE32DF1AB173BA00ECAD33 /* ACE_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84CE32DA1AB173BA00ECAD33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84CE32C21AB173BA00ECAD33 /* ACE App */;
+			targetProxy = 84CE32D91AB173BA00ECAD33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84CE32CC1AB173BA00ECAD33 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84CE32CD1AB173BA00ECAD33 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84CE32D11AB173BA00ECAD33 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84CE32D21AB173BA00ECAD33 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84CE32E01AB173BA00ECAD33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84CE32E11AB173BA00ECAD33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84CE32E31AB173BA00ECAD33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ACE App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84CE32E41AB173BA00ECAD33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ACE App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84CE32E61AB173BA00ECAD33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ACE AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ACE App.app/ACE App";
+			};
+			name = Debug;
+		};
+		84CE32E71AB173BA00ECAD33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ACE AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ACE App.app/ACE App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84CE32BE1AB173BA00ECAD33 /* Build configuration list for PBXProject "ACE App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CE32E01AB173BA00ECAD33 /* Debug */,
+				84CE32E11AB173BA00ECAD33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84CE32E21AB173BA00ECAD33 /* Build configuration list for PBXNativeTarget "ACE App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CE32E31AB173BA00ECAD33 /* Debug */,
+				84CE32E41AB173BA00ECAD33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84CE32E51AB173BA00ECAD33 /* Build configuration list for PBXNativeTarget "ACE AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CE32E61AB173BA00ECAD33 /* Debug */,
+				84CE32E71AB173BA00ECAD33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84CE32BB1AB173BA00ECAD33 /* Project object */;
+}
